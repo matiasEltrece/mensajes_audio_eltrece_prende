@@ -1,0 +1,22 @@
+{
+  "name": "mi-api-video-combinador", // Nombre descriptivo del paquete
+  "version": "1.1.0", // Versión actualizada
+  "description": "API en Vercel para combinar un archivo de audio con un video base WebM/VP9+Alpha usando FFmpeg.",
+  "private": true, // Indica que no es para publicar en npm
+  "scripts": {
+    // Puedes añadir scripts si desarrollas localmente, pero no son necesarios para Vercel
+    "dev": "vercel dev", // Ejemplo si usas Vercel CLI localmente
+    "test": "echo \"No hay tests definidos\""
+  },
+  "dependencies": {
+    // Usar versiones específicas o rangos compatibles. Actualiza según necesidad.
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "formidable": "^3.5.1" // Formidable v3 es la versión estable actual
+  },
+  "engines": {
+    "node": ">=18.x" // Especificar versión de Node.js recomendada/requerida por Vercel y dependencias
+  },
+  "author": "Tu Nombre o Equipo", // Opcional
+  "license": "ISC" // O la licencia que prefieras
+}
